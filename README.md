@@ -3,7 +3,8 @@ A menu-driven C project to manage student records using a Singly Linked List.
 
 
 Features
-Add, delete and modify student records
+    
+  Add, delete and modify student records
   
   Display student details
   
