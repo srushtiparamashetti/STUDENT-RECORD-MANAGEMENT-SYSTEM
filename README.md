@@ -1,8 +1,7 @@
 # STUDENT-RECORD-MANAGEMENT-SYSTEM
 A menu-driven C project to manage student records using a Singly Linked List.
 
-
-Features
+FEATURES
     
   Add, delete and modify student records
   
@@ -17,8 +16,8 @@ Features
   Save and load records using file handling
   
   Dynamic memory allocation using malloc()
-
-Technologies
+  
+TECHNOLOGIES
 
   C Programming
   
@@ -29,7 +28,7 @@ Technologies
   Makefile
 
 
-How to Run
+HOW TO RUN
  
  make
 
