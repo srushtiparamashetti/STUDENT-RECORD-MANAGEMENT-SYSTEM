@@ -1,13 +1,13 @@
 CC = gcc
 
 final: main.o stud_add.o std_del.o std_mod.o std_rev.o std_show.o
-        $(CC) main.o stud_add.o std_del.o std_mod.o std_rev.o std_show.o -o final
+        $(CC) main.o std_add.o std_del.o std_mod.o std_rev.o std_show.o -o final
 
 main.o: main.c header.h
         $(CC) -c main.c
 
-stud_add.o: stud_add.c header.h
-        $(CC) -c stud_add.c
+std_add.o: std_add.c header.h
+        $(CC) -c std_add.c
 
 std_del.o: std_del.c header.h
         $(CC)  -c std_del.c
