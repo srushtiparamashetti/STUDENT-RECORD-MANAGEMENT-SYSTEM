@@ -1,6 +1,6 @@
 CC = gcc
 
-final: main.o stud_add.o std_del.o std_mod.o std_rev.o std_show.o
+final: main.o std_add.o std_del.o std_mod.o std_rev.o std_show.o
         $(CC) main.o std_add.o std_del.o std_mod.o std_rev.o std_show.o -o final
 
 main.o: main.c header.h
